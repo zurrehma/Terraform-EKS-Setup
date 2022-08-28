@@ -15,8 +15,8 @@
 **/.tfvars
 **/.gitignore
 
-terraform-resources/terraform.tfstate
-terraform-resources/terraform.tfstate.backup
+./terraform-resources/terraform.tfstate
+./terraform-resources/terraform.tfstate.backup
 
-terraform-eks-cluster/terraform.tfstate
-terraform-eks-cluster/terraform.tfstate.backup
+./terraform-eks-cluster/terraform.tfstate
+./terraform-eks-cluster/terraform.tfstate.backup
