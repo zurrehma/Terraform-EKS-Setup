@@ -1,0 +1,7 @@
+namePrefix: stg-
+commonLabels:
+  env: stage
+bases:
+- ../../base
+patchesStrategicMerge:
+- node.yaml

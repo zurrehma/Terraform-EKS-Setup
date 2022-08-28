@@ -1,0 +1,10 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: node-app
+spec:
+  replicas: 3
+images:
+- name: prd-image
+  # newName: my-nginx
+  newTag: x.x.x

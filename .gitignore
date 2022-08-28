@@ -1,1 +1,22 @@
-node-easy-notes-app/node_modules/
+# application node modules
+**/node_modules/
+
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+**/.tfstate
+**/.tfstate.*
+**/.tfplan
+
+# Crash log files
+**/crash.log
+
+**/.tfvars
+**/.gitignore
+
+terraform-resources/terraform.tfstate
+terraform-resources/terraform.tfstate.backup
+
+terraform-eks-cluster/terraform.tfstate
+terraform-eks-cluster/terraform.tfstate.backup

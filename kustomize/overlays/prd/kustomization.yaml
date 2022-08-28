@@ -1,0 +1,7 @@
+namePrefix: prd-
+commonLabels:
+  env: prd
+bases:
+- ../../base
+patchesStrategicMerge:
+- node.yaml
